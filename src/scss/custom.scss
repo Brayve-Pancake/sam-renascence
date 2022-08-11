@@ -9,15 +9,26 @@
 // Create RENASCENCE brand map
 $r-yellow: #ffe184;
 $r-red: #d15f54;
-$r-black: #000000;
-$r-text: #eeeeee;
+$r-black: #333333;
+$r-black2: #222222;
+$r-white: #dddddd;
+$r-white2: #aaaaaa;
 
-$custom-colors: (
-  "r-yellow": $r-yellow,
-  "r-red": $r-red,
-  "r-black": $r-black,
-  "r-text": $r-text,
-);
+$r-bg1: $r-black;
+$r-bg2: $r-black2;
+$r-t1: $r-white;
+$r-t2: $r-white2;
+$r-d1: $r-red;
+$r-d2: $r-red;
+
+// $custom-colors: (
+// "r-bg1": $r-black,
+// "r-bg2": $r-black2,
+// "r-t1": $r-white,
+// "r-t2": $r-white2,
+// "r-d1": $r-red,
+// "r-d2": $r-red,
+// );
 
 // Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
+// $theme-colors: map-merge($theme-colors, $custom-colors);

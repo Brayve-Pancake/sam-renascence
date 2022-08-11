@@ -1,3 +1,5 @@
+@import "./custom.scss";
+
 .c1Welcome {
   //   position: relative;
 }
@@ -7,4 +9,17 @@
   top: 0;
   left: 0;
   width: 5rem;
+}
+
+/* Button Formatting */
+.contact-btn-dark {
+  background-color: $r-d1;
+  color: $r-t1;
+  border-radius: 1rem;
+}
+
+.contact-btn-lg {
+  padding: 0.2rem 1.5rem;
+  font-size: 1.5rem;
+  border: $r-d2 solid 3px;
 }

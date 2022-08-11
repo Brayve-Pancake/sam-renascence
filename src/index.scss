@@ -4,19 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $r-black;
-  color: $r-text;
-}
-
-/* Button Formatting */
-.contact-btn-dark {
-  background-color: $r-yellow;
-  color: $r-black;
-  border-radius: 1rem;
-}
-
-.contact-btn-lg {
-  padding: 0.2rem 1.5rem;
-  font-size: 1.5rem;
-  border: #ffe184 solid 1px;
+  background-color: $r-bg1;
+  color: $r-t1;
 }
