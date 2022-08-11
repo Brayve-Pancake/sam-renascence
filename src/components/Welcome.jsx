@@ -1,14 +1,9 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import logo from "../assets/r-logo.png";
 import "../scss/welcome.scss";
 
 export default function Welcome() {
-  const [videoUrl, setVideoUrl] = useState(
-    "https://www.youtube.com/embed/vlDzYIIOYmM"
-  );
-
   return (
     <div className="c1Welcome">
       <img className="logo" src={logo} alt="company logo" />
@@ -23,7 +18,7 @@ export default function Welcome() {
       <div className="ratio-16x9 ratio">
         <iframe
           className="m"
-          // src={videoUrl}
+          src="https://www.youtube.com/embed/vlDzYIIOYmM"
           title="YouTube video"
           allowFullScreen
         ></iframe>

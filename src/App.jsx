@@ -1,7 +1,7 @@
 import {
   NavbarResponsive,
   Welcome,
-  // Testamonials,
+  Testamonials,
   // Carousel1,
   // HowItWorks,
   // Carousel2,
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <NavbarResponsive />
       <Welcome />
-      {/* <Testamonials /> */}
+      <Testamonials />
       {/* <Carousel1 />
       <HowItWorks />
       <Carousel2 />
