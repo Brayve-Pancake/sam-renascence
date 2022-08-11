@@ -1,13 +1,28 @@
-import { useState } from "react";
-import "./App.css";
-import C1Welcome from "./components/C1Welcome";
-import NavbarResponsive from "./components/NavbarResponsive";
+import {
+  NavbarResponsive,
+  Welcome,
+  // Testamonials,
+  // Carousel1,
+  // HowItWorks,
+  // Carousel2,
+  // Pricing,
+  // Contact,
+  // Footer,
+} from "./components/index";
+// maybe use star
 
 function App() {
   return (
     <div className="App">
       <NavbarResponsive />
-      <C1Welcome />
+      <Welcome />
+      {/* <Testamonials /> */}
+      {/* <Carousel1 />
+      <HowItWorks />
+      <Carousel2 />
+      <Pricing />
+      <Contact />
+      <Footer /> */}
     </div>
   );
 }

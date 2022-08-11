@@ -4,14 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: rgb(20, 20, 20); */
-  color: white;
+  background-color: $r-black;
+  color: $r-text;
 }
 
 /* Button Formatting */
 .contact-btn-dark {
   background-color: $r-yellow;
-  color: white;
+  color: $r-black;
   border-radius: 1rem;
 }
 

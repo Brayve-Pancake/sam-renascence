@@ -10,11 +10,13 @@
 $r-yellow: #ffe184;
 $r-red: #d15f54;
 $r-black: #000000;
+$r-text: #eeeeee;
 
 $custom-colors: (
   "r-yellow": $r-yellow,
   "r-red": $r-red,
   "r-black": $r-black,
+  "r-text": $r-text,
 );
 
 // Merge the maps
