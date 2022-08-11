@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// 444 Make sure to only include parts of BS. (optimise after)
+// Required
+// @import "bootstrap/scss/functions";
+// @import "bootstrap/scss/variables";
+// @import "bootstrap/scss/mixins";
+// @import "bootstrap/scss/utilities";
+
+// Create RENASCENCE brand map
+$r-yellow: #ffe184;
+$r-red: #d15f54;
+$r-black: #000000;
+
+$custom-colors: (
+  "r-yellow": $r-yellow,
+  "r-red": $r-red,
+  "r-black": $r-black,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

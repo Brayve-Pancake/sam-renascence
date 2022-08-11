@@ -1,3 +1,4 @@
+@import "./scss/custom.scss";
 /* Remove defaults and standardise inputs fields */
 * {
   margin: 0;
@@ -9,7 +10,7 @@
 
 /* Button Formatting */
 .contact-btn-dark {
-  background-color: yellow;
+  background-color: $r-yellow;
   color: white;
   border-radius: 1rem;
 }
