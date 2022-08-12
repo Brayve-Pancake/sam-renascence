@@ -4,8 +4,8 @@ import { send } from "emailjs-com";
 
 export default function Contact() {
   const [toSend, setToSend] = useState({
-    from_name: "",
-    to_name: "",
+    full_name: "",
+    prefered_name: "",
     message: "",
     reply_to: "",
   });
@@ -16,7 +16,7 @@ export default function Contact() {
       import.meta.env.VITE_EMAIL_JS_ID,
       import.meta.env.VITE_TEMPLATE_ID,
       toSend,
-      "User ID"
+      import.meta.env.VITE_PUBLIC_API
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -31,18 +31,18 @@ export default function Contact() {
   };
   return (
     <div>
-      <form onSubmit={onSubmit}>
+      <form className="form" onSubmit={onSubmit}>
         <input
           type="text"
-          name="from_name"
-          placeholder="from name"
+          name="full_name"
+          placeholder="full name"
           value={toSend.from_name}
           onChange={handleChange}
         />
         <input
           type="text"
-          name="to_name"
-          placeholder="to name"
+          name="prefered_name"
+          placeholder="preferd name"
           value={toSend.to_name}
           onChange={handleChange}
         />
