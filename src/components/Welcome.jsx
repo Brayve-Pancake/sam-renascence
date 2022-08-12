@@ -27,7 +27,7 @@ export default function Welcome() {
       <div className="text-center my-2">
         <Button bsPrefix="contact-btn" variant="dark" size="lg">
           {/* <Button variant="custom-color" size="lg"> */}
-          Book Now
+          Book now
         </Button>
       </div>
     </div>
