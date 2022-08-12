@@ -12,7 +12,12 @@ export default function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send(import.meta.env.VITE_EMAIL_JS_ID, "TEMPLATE ID", toSend, "User ID")
+    send(
+      import.meta.env.VITE_EMAIL_JS_ID,
+      import.meta.env.VITE_TEMPLATE_ID,
+      toSend,
+      "User ID"
+    )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
