@@ -7,6 +7,8 @@ import {
   Contact,
   // Footer,
 } from "./components/index";
+import { send } from "emailjs-com";
+
 // maybe use star
 
 function App() {
