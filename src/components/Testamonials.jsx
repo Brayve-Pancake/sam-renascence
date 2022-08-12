@@ -13,13 +13,12 @@ export default function Testamonials() {
               <blockquote className="blockquote mb-5 mx-3">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
+                  Integer posuere erat a ante. ipsum dolor sit amet, consectetur
+                  adipiscing elit. Integer posuere erat a ante. Lorem ipsum
+                  dolor sit amet, adipiscing elit. Integer posuere a ante. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  posuere erat a ante. Lorem ipsum dolor amet, consectetur
+                  adipiscing elit. Integer posuere erat a ante.
                 </p>
                 <p className="blockquote-footer">
                   <span className="name">Joshua Bray</span>
@@ -34,13 +33,12 @@ export default function Testamonials() {
               <blockquote className="blockquote mb-5 mx-3">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
+                  Integer posuere erat a ante. ipsum dolor sit amet, consectetur
+                  adipiscing elit. Integer posuere erat a ante. Lorem ipsum
+                  dolor sit amet, adipiscing elit. Integer posuere a ante. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  posuere erat a ante. Lorem ipsum dolor amet, consectetur
+                  adipiscing elit. Integer posuere erat a ante.
                 </p>
                 <p className="blockquote-footer">
                   <span className="name">Joshua Bray</span>
@@ -55,12 +53,11 @@ export default function Testamonials() {
               <blockquote className="blockquote mb-5 mx-3">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Integer posuere erat a ante.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante. ipsum dolor sit amet, adipiscing
+                  elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet,
+                  adipiscing elit. Integer posuere a ante. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante. Lorem ipsum dolor amet, consectetur adipiscing elit.
                   Integer posuere erat a ante.
                 </p>
                 <p className="blockquote-footer">
