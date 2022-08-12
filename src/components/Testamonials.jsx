@@ -8,7 +8,7 @@ export default function Testamonials() {
     <div className="container px-0 mt-3">
       <Carousel interval={null}>
         <Carousel.Item>
-          <Card bsPrefix="test-card" variant="primary">
+          <Card>
             <Card.Body>
               <blockquote className="blockquote mb-5 mx-3">
                 <p>

@@ -3,8 +3,7 @@ import {
   Welcome,
   Testamonials,
   HowItWorks,
-  // Carousel2,
-  // Pricing,
+  Pricing,
   // Contact,
   // Footer,
 } from "./components/index";
@@ -17,8 +16,7 @@ function App() {
       <Welcome />
       <Testamonials />
       <HowItWorks />
-      {/* <Carousel2 /> */}
-      {/* <Pricing /> */}
+      <Pricing />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </div>

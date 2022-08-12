@@ -1,0 +1,29 @@
+@import "./custom.scss";
+
+// .card {
+//   border-radius: 4px;
+// }
+
+// .card-body {
+//   background-color: red;
+//   border-radius: 1em;
+// }
+
+.accordion {
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-header {
+  border: none;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-header > button {
+  background-color: transparent;
+  border-block: 0.5px solid $r-d2;
+  color: $r-t1;
+}

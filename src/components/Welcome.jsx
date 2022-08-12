@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import logo from "../assets/r-logo.png";
 import "../scss/welcome.scss";
 
