@@ -4,7 +4,7 @@ import {
   Testamonials,
   HowItWorks,
   Pricing,
-  // Contact,
+  Contact,
   // Footer,
 } from "./components/index";
 // maybe use star
@@ -17,7 +17,7 @@ function App() {
       <Testamonials />
       <HowItWorks />
       <Pricing />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
     </div>
   );
