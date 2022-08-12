@@ -2,8 +2,7 @@ import {
   NavbarResponsive,
   Welcome,
   Testamonials,
-  // Carousel1,
-  // HowItWorks,
+  HowItWorks,
   // Carousel2,
   // Pricing,
   // Contact,
@@ -17,12 +16,11 @@ function App() {
       <NavbarResponsive />
       <Welcome />
       <Testamonials />
-      {/* <Carousel1 />
       <HowItWorks />
-      <Carousel2 />
-      <Pricing />
-      <Contact />
-      <Footer /> */}
+      {/* <Carousel2 /> */}
+      {/* <Pricing /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function Welcome() {
   return (
     <div className="c1Welcome">
       <img className="logo" src={logo} alt="company logo" />
-      <div className="container px-4 mt-3 container1">
+      <div className="container px-5 mt-3 container1">
         <h1 className="display-6 title1">Title 1</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
