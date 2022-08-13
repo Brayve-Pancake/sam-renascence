@@ -28,6 +28,7 @@ export default function Welcome() {
           Book now
         </Button>
       </div>
+      <hr></hr>
     </div>
   );
 }

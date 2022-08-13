@@ -29,7 +29,6 @@ function App() {
       <HowItWorks myImage={myImage} />
       <Pricing />
       <Contact />
-      <img src="myImage" />
       {/* <Footer /> */}
     </div>
   );
