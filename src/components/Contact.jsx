@@ -45,6 +45,7 @@ export default function Contact() {
         <div className="contact-grid">
           <label htmlFor="Full_name">Full name</label>
           <input
+            required
             type="text"
             name="full_name"
             id="Full_name"
@@ -55,6 +56,7 @@ export default function Contact() {
         <div className="contact-grid">
           <label htmlFor="Preferred_name">Preferred name</label>
           <input
+            required
             type="text"
             id="Preffered_name"
             name="preferred_name"
@@ -65,6 +67,7 @@ export default function Contact() {
         <div className="contact-grid">
           <label htmlFor="Email">Email</label>
           <input
+            required
             type="text"
             id="Email"
             name="reply_to"
@@ -75,6 +78,7 @@ export default function Contact() {
         <div className="contact-grid">
           <label htmlFor="Messaage">Your message</label>
           <input
+            required
             type="text"
             id="Message"
             name="message"
