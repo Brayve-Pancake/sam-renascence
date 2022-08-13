@@ -4,8 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $r-bg1;
+  // background-color: $r-bg1;
   color: $r-t1;
+}
+
+body {
+  background-color: $r-bg1;
+}
+
+nav {
+  background-color: $r-bg1;
 }
 
 .jumptarget:before {

@@ -1,5 +1,11 @@
 @import "./custom.scss";
 
+.backgroundImage {
+  background-image: url("../assets/circle-logo.png");
+  background-size: 150vw;
+  border: 1px solid red;
+}
+
 .welcome {
   margin-inline: 5vw;
   padding-top: calc($nav-height + 10px);
