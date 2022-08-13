@@ -30,7 +30,7 @@ export default function Contact() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   return (
-    <div className="contact">
+    <div id="contact" className="contact jumptarget">
       <div className="contact-text">
         <h3>Contact Renascence</h3>
         <p>

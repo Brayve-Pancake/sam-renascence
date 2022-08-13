@@ -7,3 +7,15 @@
   background-color: $r-bg1;
   color: $r-t1;
 }
+
+.jumptarget:before {
+  display: block;
+  content: " ";
+  margin-top: -$nav-height;
+  height: $nav-height;
+  visibility: hidden;
+}
+
+.navbar-responsive {
+  height: calc($nav-height + 10px);
+}

@@ -62,6 +62,7 @@ export default function Testamonials() {
           </Card>
         </Carousel.Item>
       </Carousel>
+      <hr></hr>
       <div className="image-container">
         <img src={waitingRoom}></img>
       </div>

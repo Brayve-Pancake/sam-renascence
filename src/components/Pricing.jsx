@@ -4,7 +4,7 @@ import "../scss/pricing.scss";
 
 export default function Pricing() {
   return (
-    <div className="pricing">
+    <div id="pricing" className="pricing jumptarget">
       <hr></hr>
       <h1 className="display-6 title1">Community Driven Pricing</h1>
       <p>

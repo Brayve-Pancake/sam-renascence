@@ -1,14 +1,12 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import logo from "../assets/r-logo.png";
 import "../scss/welcome.scss";
 
 export default function Welcome() {
   return (
-    <div className="welcome">
-      <img className="logo" src={logo} alt="company logo" />
+    <div id="whatWeDo" className="welcome jumptarget">
       <div>
-        <h1 className="display-6 title1">Title 1</h1>
+        <h1 className="display-6 title1">What we do</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
           distinctio, obcaecati non natus eligendi hic sint sapiente quia minus

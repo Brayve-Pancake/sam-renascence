@@ -5,7 +5,7 @@ import "../scss/howItWorks.scss";
 
 export default function HowItWorks() {
   return (
-    <div className="howItWorks">
+    <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
       <h1 className="display-6 title1">Coaching package</h1>
       <p>
