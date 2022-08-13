@@ -3,7 +3,9 @@ import Carousel from "react-bootstrap/Carousel";
 import bros from "../assets/res-bros.png";
 import "../scss/howItWorks.scss";
 
-export default function HowItWorks() {
+import { AdvancedImage } from "@cloudinary/react";
+
+export default function HowItWorks(props) {
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
@@ -29,7 +31,9 @@ export default function HowItWorks() {
       <hr></hr>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="d-block w-100" src={bros} alt="First slide" />
+          <AdvancedImage className="d-block w-100" cldImg={props.myImage} />
+
+          {/* <img className="d-block w-100" src={bros} alt="First slide" /> */}
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={bros} alt="First slide" />

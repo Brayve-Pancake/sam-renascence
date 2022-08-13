@@ -8,7 +8,6 @@ import {
   // Footer,
 } from "./components/index";
 
-import { AdvancedImage } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
 
 // maybe use star
@@ -24,13 +23,13 @@ function App() {
 
   return (
     <div className="App">
-      <AdvancedImage cldImg={myImage} />
       <NavbarResponsive />
       <Welcome />
       <Testamonials />
-      <HowItWorks />
+      <HowItWorks myImage={myImage} />
       <Pricing />
       <Contact />
+      <img src="myImage" />
       {/* <Footer /> */}
     </div>
   );
