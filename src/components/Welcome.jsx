@@ -5,9 +5,9 @@ import "../scss/welcome.scss";
 
 export default function Welcome() {
   return (
-    <div className="c1Welcome">
+    <div className="welcome">
       <img className="logo" src={logo} alt="company logo" />
-      <div className="container px-5 mt-3 container1">
+      <div>
         <h1 className="display-6 title1">Title 1</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed

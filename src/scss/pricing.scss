@@ -1,13 +1,8 @@
 @import "./custom.scss";
 
-// .card {
-//   border-radius: 4px;
-// }
-
-// .card-body {
-//   background-color: red;
-//   border-radius: 1em;
-// }
+.pricing {
+  margin-inline: 5vw;
+}
 
 .accordion {
   background-color: transparent;
@@ -24,6 +19,5 @@
 
 .accordion-header > button {
   background-color: transparent;
-  border-block: 0.5px solid $r-d2;
   color: $r-t1;
 }

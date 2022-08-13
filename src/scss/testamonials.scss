@@ -1,15 +1,32 @@
 @import "./custom.scss";
 
-.title1 {
-  color: $r-t1;
+.testamonials {
+  margin-inline: 5vw;
 }
 
-.test-card {
-  //   border: 0.5rem solid $r-d1;
+// Applies across all Carousels
+span.carousel-control-next-icon {
+  background-color: transparent;
+}
+
+span.carousel-control-prev-icon {
+  background-color: transparent;
+}
+
+// Applies to testamonials Caraousels only
+.testamonials-carousel > a > span.carousel-control-next-icon {
+  position: absolute;
+  right: -2.5vw;
+  background-color: transparent;
+}
+.testamonials-carousel > a > span.carousel-control-prev-icon {
+  position: absolute;
+  left: -2.5vw;
+  background-color: transparent;
 }
 
 blockquote {
-  min-height: 20rem;
+  min-height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,10 +54,6 @@ blockquote > p {
   //   border: solid gold 2px;
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-}
 .image-container > img {
-  width: 90%;
+  width: 100%;
 }

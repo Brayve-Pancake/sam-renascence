@@ -1,11 +1,10 @@
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 import "../scss/pricing.scss";
 
 export default function Pricing() {
   return (
-    <div className="container px-4 mt-3 container1">
+    <div className="pricing">
       <hr></hr>
       <h1 className="display-6 title1">Community Driven Pricing</h1>
       <p>

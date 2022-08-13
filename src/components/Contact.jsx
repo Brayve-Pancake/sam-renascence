@@ -5,7 +5,7 @@ import { send } from "emailjs-com";
 export default function Contact() {
   const [toSend, setToSend] = useState({
     full_name: "",
-    prefered_name: "",
+    preferred_name: "",
     message: "",
     reply_to: "",
   });
@@ -30,36 +30,58 @@ export default function Contact() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   return (
-    <div>
+    <div className="contact">
+      <div className="contact-text">
+        <h3>Contact Renascence</h3>
+        <p>
+          Taking the time to reflect is the first step. By contacting Sam at
+          Renascence you're putting yourself on the fast track for positive
+          changes in your life.
+          <br></br>
+          Get in contact now, we will get right back!
+        </p>
+      </div>
       <form className="form" onSubmit={onSubmit}>
-        <input
-          type="text"
-          name="full_name"
-          placeholder="full name"
-          value={toSend.from_name}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          name="prefered_name"
-          placeholder="preferd name"
-          value={toSend.to_name}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          name="message"
-          placeholder="Your message"
-          value={toSend.message}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          name="reply_to"
-          placeholder="Your email"
-          value={toSend.reply_to}
-          onChange={handleChange}
-        />
+        <div className="contact-grid">
+          <label htmlFor="Full_name">Full name</label>
+          <input
+            type="text"
+            name="full_name"
+            id="Full_name"
+            value={toSend.from_name}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="contact-grid">
+          <label htmlFor="Preferred_name">Preferred name</label>
+          <input
+            type="text"
+            id="Preffered_name"
+            name="preferred_name"
+            value={toSend.to_name}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="contact-grid">
+          <label htmlFor="Email">Email</label>
+          <input
+            type="text"
+            id="Email"
+            name="reply_to"
+            value={toSend.reply_to}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="contact-grid">
+          <label htmlFor="Messaage">Your message</label>
+          <input
+            type="text"
+            id="Message"
+            name="message"
+            value={toSend.message}
+            onChange={handleChange}
+          />
+        </div>
         <button type="submit">Submit</button>
       </form>
     </div>

@@ -1,6 +1,7 @@
 @import "./custom.scss";
 
-.c1Welcome {
+.welcome {
+  margin-inline: 5vw;
   //   position: relative;
 }
 
@@ -15,7 +16,7 @@
 .contact-btn-dark {
   background-color: $r-d1;
   color: $r-t1;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
 }
 
 .contact-btn-lg {

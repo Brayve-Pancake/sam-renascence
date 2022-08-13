@@ -5,66 +5,60 @@ import waitingRoom from "../assets/res-waitingRoom.png";
 
 export default function Testamonials() {
   return (
-    <div className="container px-0 mt-3">
-      <Carousel interval={null}>
+    <div className="testamonials">
+      <Carousel className="testamonials-carousel" interval={null}>
         <Carousel.Item>
-          <Card>
-            <Card.Body>
-              <blockquote className="blockquote mb-5 mx-3">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. ipsum dolor sit amet, consectetur
-                  adipiscing elit. Integer posuere erat a ante. Lorem ipsum
-                  dolor sit amet, adipiscing elit. Integer posuere a ante. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                  posuere erat a ante. Lorem ipsum dolor amet, consectetur
-                  adipiscing elit. Integer posuere erat a ante.
-                </p>
-                <p className="blockquote-footer">
-                  <span className="name">Joshua Bray</span>
-                </p>{" "}
-              </blockquote>
-            </Card.Body>
+          <Card bsPrefix="remove-defaults">
+            <blockquote className="blockquote">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante. ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
+                sit amet, adipiscing elit. Integer posuere a ante. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Integer posuere
+                erat a ante. Lorem ipsum dolor amet, consectetur adipiscing
+                elit. Integer posuere erat a ante.
+              </p>
+              <p className="blockquote-footer">
+                <span className="name">Joshua Bray</span>
+              </p>{" "}
+            </blockquote>
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card bsPrefix="test-card" variant="primary">
-            <Card.Body>
-              <blockquote className="blockquote mb-5 mx-3">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. ipsum dolor sit amet, consectetur
-                  adipiscing elit. Integer posuere erat a ante. Lorem ipsum
-                  dolor sit amet, adipiscing elit. Integer posuere a ante. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                  posuere erat a ante. Lorem ipsum dolor amet, consectetur
-                  adipiscing elit. Integer posuere erat a ante.
-                </p>
-                <p className="blockquote-footer">
-                  <span className="name">Joshua Bray</span>
-                </p>{" "}
-              </blockquote>
-            </Card.Body>
+          <Card bsPrefix="remove-defaults">
+            <blockquote className="blockquote">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante. ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
+                sit amet, adipiscing elit. Integer posuere a ante. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Integer posuere
+                erat a ante. Lorem ipsum dolor amet, consectetur adipiscing
+                elit. Integer posuere erat a ante.
+              </p>
+              <p className="blockquote-footer">
+                <span className="name">Joshua Bray</span>
+              </p>{" "}
+            </blockquote>
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card bsPrefix="test-card" variant="primary">
-            <Card.Body>
-              <blockquote className="blockquote mb-5 mx-3">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante. ipsum dolor sit amet, adipiscing
-                  elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet,
-                  adipiscing elit. Integer posuere a ante. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Integer posuere erat a
-                  ante. Lorem ipsum dolor amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
-                </p>
-                <p className="blockquote-footer">
-                  <span className="name">Joshua Bray</span>
-                </p>{" "}
-              </blockquote>
-            </Card.Body>
+          <Card bsPrefix="remove-defaults">
+            <blockquote className="blockquote">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante. ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
+                sit amet, adipiscing elit. Integer posuere a ante. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Integer posuere
+                erat a ante. Lorem ipsum dolor amet, consectetur adipiscing
+                elit. Integer posuere erat a ante.
+              </p>
+              <p className="blockquote-footer">
+                <span className="name">Joshua Bray</span>
+              </p>{" "}
+            </blockquote>
           </Card>
         </Carousel.Item>
       </Carousel>
