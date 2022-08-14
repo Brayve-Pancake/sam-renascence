@@ -73,7 +73,7 @@ export default function Pricing() {
         </Accordion.Item>
       </Accordion>
       <br></br>
-      <hr></hr>
+      {/* <hr></hr> */}
     </div>
   );
 }
