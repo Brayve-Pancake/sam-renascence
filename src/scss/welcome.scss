@@ -1,8 +1,13 @@
 @import "./custom.scss";
 
 .backgroundImage {
-  background-image: url("../assets/circle-logo.png");
-  background-size: 150vw;
+  // 444 Add circle logo to replace.
+  // must have red text bg
+  background-image: url("../assets/r-logo.png");
+  background-color: black;
+  background-size: 100%;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
   border: 1px solid red;
 }
 

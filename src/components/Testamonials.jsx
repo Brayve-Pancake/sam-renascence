@@ -1,7 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 import "../scss/testamonials.scss";
-import waitingRoom from "../assets/res-waitingRoom.png";
 
 export default function Testamonials() {
   return (
@@ -63,9 +62,6 @@ export default function Testamonials() {
         </Carousel.Item>
       </Carousel>
       <hr></hr>
-      <div className="image-container">
-        <img src={waitingRoom}></img>
-      </div>
     </div>
   );
 }

@@ -27,3 +27,29 @@ nav {
 .navbar-responsive {
   height: calc($nav-height + 10px);
 }
+
+.image-container {
+  // 444 set height the same as welcome section or coaching section?
+  height: 400px;
+  // 444 Change image to Cloudinary
+  background-image: url("./assets/res-waitingRoom.png");
+  background-color: black;
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.image-container > p {
+  position: absolute;
+  top: 3%;
+  text-align: center;
+  color: $r-bg1;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  width: 80%;
+}
