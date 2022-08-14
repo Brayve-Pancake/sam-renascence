@@ -1,26 +1,25 @@
 @import "./custom.scss";
 
+// Use custom hex to change drop down for accordion
+$r-yellow-icon: #d15f54ee;
+
 .pricing {
   margin-inline: 5vw;
 }
 
 // Add base line colour to accordion
+.accordion-body {
+  border-bottom: solid 1px $r-t2;
+}
 h2.accordion-header {
-  border-bottom: solid 1px #d15f54;
+  border-bottom: solid 1px $r-t2;
   // box-shadow: 0px 1px 0px #29913a;
   text-shadow: rgb(0, 0, 0) 0px 0 10px;
 }
+
 .accordion-header > button {
-  // border-bottom: solid 1px #d15f54;
-  // box-shadow: 0px 1px 0px #29913a;
   text-shadow: rgb(0, 0, 0) 0 0 5px;
 }
-.accordion-body {
-  border-bottom: solid 1px #d15f54;
-}
-
-// Use custom hex to change drop down for accordion
-$r-yellow-icon: #ffe184aa;
 
 // Setting accordion to remove colours/boarder...
 .accordion.accordion-flush {

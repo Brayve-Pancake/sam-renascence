@@ -15,6 +15,8 @@ export default function Welcome() {
             ad!
           </p>
         </div>
+        <br></br>
+
         <div className="ratio-16x9 ratio">
           <iframe
             className="m"
@@ -23,13 +25,15 @@ export default function Welcome() {
             allowFullScreen
           ></iframe>
         </div>
+        <br></br>
+
         <div className="text-center my-2">
           <Button bsPrefix="contact-btn" variant="dark" size="lg">
             {/* <Button variant="custom-color" size="lg"> */}
             Book now
           </Button>
         </div>
-        <hr></hr>
+        <br></br>
       </div>
     </div>
   );

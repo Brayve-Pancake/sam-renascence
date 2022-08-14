@@ -5,6 +5,7 @@ import "../scss/testamonials.scss";
 export default function Testamonials() {
   return (
     <div className="testamonials">
+      <hr></hr>
       <Carousel className="testamonials-carousel" interval={null}>
         <Carousel.Item>
           <Card bsPrefix="remove-defaults">
