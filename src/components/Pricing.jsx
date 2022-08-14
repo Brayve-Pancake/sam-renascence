@@ -6,7 +6,7 @@ export default function Pricing() {
   return (
     <div id="pricing" className="pricing jumptarget">
       <hr></hr>
-      <h1 className="display-6 title1">Community Driven Pricing</h1>
+      <h1 className="title">Community Driven Pricing</h1>
       <p>
         To kickstart your transformation, Renascence offer a complete coaching
         service that spans a total of 16 weeks. The bro's we help frequently

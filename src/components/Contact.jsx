@@ -32,7 +32,7 @@ export default function Contact() {
   return (
     <div id="contact" className="contact jumptarget">
       <div className="contact-text">
-        <h3>Contact Renascence</h3>
+        <h3 className="title">Contact Renascence</h3>
         <p>
           Taking the time to reflect is the first step. By contacting Sam at
           Renascence you're putting yourself on the fast track for positive
