@@ -8,7 +8,7 @@ export default function Welcome() {
       <div id="whatWeDo" className="welcome jumptarget">
         <div>
           <h1 className="title">What we do</h1>
-          <p>
+          <p className="sub-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
             distinctio, obcaecati non natus eligendi hic sint sapiente quia
             minus est expedita, nobis ullam! Illo ex voluptatem doloribus sed

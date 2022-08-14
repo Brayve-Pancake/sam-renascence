@@ -10,17 +10,17 @@ export default function HowItWorks(props) {
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
       <h1 className="title">Coaching package</h1>
-      <p>
+      <p className="sub-text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
         distinctio, obcaecati non natus eligendi hic sint sapiente quia minus
         est expedita, nobis ullam! Illo ex voluptatem doloribus sed ad!
       </p>
       <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
+        <li className="sub-text">Lorem ipsum dolor sit amet.</li>
+        <li className="sub-text">Lorem ipsum dolor sit amet.</li>
+        <li className="sub-text">Lorem ipsum dolor sit amet.</li>
+        <li className="sub-text">Lorem ipsum dolor sit amet.</li>
+        <li className="sub-text">Lorem ipsum dolor sit amet.</li>
       </ul>
       <div className="text-center my-2">
         <Button bsPrefix="contact-btn" variant="dark" size="lg">

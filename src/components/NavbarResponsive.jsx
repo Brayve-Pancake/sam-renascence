@@ -13,6 +13,7 @@ export default function NavbarResponsive() {
       variant="dark"
     >
       <Container>
+        <h2 className="brand-text">RENASCENCE</h2>
         <Navbar.Brand href="#whatWeDo">
           <img className="logo" src={logo} alt="company logo" />
         </Navbar.Brand>
