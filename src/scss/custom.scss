@@ -11,12 +11,12 @@ $r-yellow: #ffe184;
 $r-red: #d15f54;
 $r-black: #333333;
 $r-black2: #222222;
-$r-white: #dddddd;
-$r-white2: #aaaaaa;
+$r-white: #ffe184;
+$r-white2: #e0e0e0;
 
 $r-bg1: $r-black;
 $r-bg2: $r-black2;
-$r-t1: $r-white;
+$r-t1: $r-yellow;
 $r-t2: $r-white2;
 $r-d1: $r-red;
 $r-d2: $r-yellow;
@@ -24,13 +24,13 @@ $r-d2: $r-yellow;
 $nav-height: 3rem;
 
 // $custom-colors: (
-// "r-bg1": $r-black,
-// "r-bg2": $r-black2,
-// "r-t1": $r-white,
-// "r-t2": $r-white2,
-// "r-d1": $r-red,
-// "r-d2": $r-red,
+//   "r-bg1": $r-black,
+//   "r-bg2": $r-black2,
+//   "r-t1": $r-white,
+//   "r-t2": $r-white2,
+//   "r-d1": $r-red,
+//   "r-d2": $r-yellow,
 // );
 
-// Merge the maps
+// // Merge the maps
 // $theme-colors: map-merge($theme-colors, $custom-colors);

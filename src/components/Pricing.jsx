@@ -12,7 +12,7 @@ export default function Pricing() {
         service that spans a total of 16 weeks. The bro's we help frequently
         continue on a bi-weekly basis.
       </p>
-      <Accordion bsPrefix="accordion" defaultActiveKey="0">
+      <Accordion flush bsPrefix="accordion" defaultActiveKey="0">
         <Accordion.Item bsPrefix="accordion-item" eventKey="0">
           <Accordion.Header bsPrefix="accordion-header">
             16 weeks of coaching £899.
