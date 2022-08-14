@@ -9,7 +9,7 @@ export default function HowItWorks(props) {
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
-      <h1 className="title">Coaching package</h1>
+      <h1 className="title">Coaching Package</h1>
       <p className="sub-text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
         distinctio, obcaecati non natus eligendi hic sint sapiente quia minus

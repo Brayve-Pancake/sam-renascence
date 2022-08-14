@@ -15,7 +15,7 @@ export default function Pricing() {
       <Accordion flush bsPrefix="accordion" defaultActiveKey="0">
         <Accordion.Item bsPrefix="accordion-item" eventKey="0">
           <Accordion.Header bsPrefix="accordion-header">
-            16 weeks of coaching £899.
+            16 Week Package £899.
           </Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -28,15 +28,14 @@ export default function Pricing() {
             <br></br>
             <br></br>
             <div className="text-center my-2">
-              <Button>
-                {/* <Button variant="custom-color" size="lg"> */}
-                Book Now
+              <Button bsPrefix="contact-btn" variant="dark" size="lg">
+                Book now
               </Button>
             </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Hourly rate £60</Accordion.Header>
+          <Accordion.Header>Hourly Rate £60</Accordion.Header>
           <Accordion.Body>
             Hourly sessions are best for those who have already formed a
             foundational relationship with Renasence.
@@ -49,24 +48,31 @@ export default function Pricing() {
             Personalised session organisation
             <br></br>
             Resource creation
+            <br></br>
+            <br></br>
+            <div className="text-center my-2">
+              <Button bsPrefix="contact-btn" variant="dark" size="lg">
+                Book Now
+              </Button>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Free Initial Consultation</Accordion.Header>
+          <Accordion.Header>Free Consultation</Accordion.Header>
           <Accordion.Body>
             New to coaching? Not sure what to expect? Want to meet your new
             coach?
             <br></br>
+            <br></br>
+            <div className="text-center my-2">
+              <Button bsPrefix="contact-btn" variant="dark" size="lg">
+                Book Now
+              </Button>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
       <br></br>
-      <div className="text-center my-2">
-        <Button bsPrefix="contact-btn" variant="dark" size="lg">
-          {/* <Button variant="custom-color" size="lg"> */}
-          Book Now
-        </Button>
-      </div>
       <hr></hr>
     </div>
   );

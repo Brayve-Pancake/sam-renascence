@@ -7,7 +7,7 @@ export default function Welcome() {
     <div className="backgroundImage">
       <div id="whatWeDo" className="welcome jumptarget">
         <div>
-          <h1 className="title">What we do</h1>
+          <h1 className="title">What We Do</h1>
           <p className="sub-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
             distinctio, obcaecati non natus eligendi hic sint sapiente quia
