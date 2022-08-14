@@ -13,9 +13,11 @@ export default function NavbarResponsive() {
       variant="dark"
     >
       <Container>
-        <h2 className="brand-text">RENASCENCE</h2>
         <Navbar.Brand href="#whatWeDo">
-          <img className="logo" src={logo} alt="company logo" />
+          <div className="nav-container">
+            <img className="logo" src={logo} alt="company logo" />
+            <h2 className="brand-text">RENASCENCE</h2>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

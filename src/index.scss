@@ -51,6 +51,11 @@ nav {
   height: calc($nav-height + 10px);
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .image-container {
   // 444 set height the same as welcome section or coaching section?
   height: 400px;
