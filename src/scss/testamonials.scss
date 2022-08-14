@@ -25,11 +25,16 @@ span.carousel-control-prev-icon {
   background-color: transparent;
 }
 
-blockquote {
-  min-height: 25rem;
+// Adding
+.add-flex {
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+blockquote {
   padding-block: 2rem;
   padding-inline: 2rem;
 }
