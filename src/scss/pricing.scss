@@ -8,6 +8,12 @@
 h2.accordion-header {
   border-bottom: solid 1px #d15f54;
   // box-shadow: 0px 1px 0px #29913a;
+  text-shadow: rgb(0, 0, 0) 0px 0 10px;
+}
+.accordion-header > button {
+  // border-bottom: solid 1px #d15f54;
+  // box-shadow: 0px 1px 0px #29913a;
+  text-shadow: rgb(0, 0, 0) 0 0 5px;
 }
 .accordion-body {
   border-bottom: solid 1px #d15f54;
