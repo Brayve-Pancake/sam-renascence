@@ -4,7 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/r-logo.png";
 import "../scss/navbar.scss";
 
-export default function NavbarResponsive() {
+import { AdvancedImage } from "@cloudinary/react";
+
+export default function NavbarResponsive({ salamLogo }) {
   return (
     <Navbar
       // bsPrefix="override-navbar"
@@ -17,7 +19,11 @@ export default function NavbarResponsive() {
         <Navbar.Brand href="#whatWeDo">
           <a className="navbar-link" href="#whatWeDo">
             <div className="brand-text">
-              <img className="logo" src={logo} alt="company logo" />
+              <AdvancedImage
+                className="logo"
+                cldImg={salamLogo}
+                alt="company logo"
+              />
               RENASCENCE
             </div>
           </a>

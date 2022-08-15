@@ -21,12 +21,11 @@ function App() {
   const quoteImg1 = cld.image("images/quote-img-1-1_v2uqst");
   const quoteImg2 = cld.image("images/quote-img-2-1_eutrx4");
   const waitingYellow = cld.image("images/waiting-yellow_xnswzh");
-  const salamCircle = cld.image("images/salamander-circle-yellow_ifhgxt");
   const salamLogo = cld.image("images/salamander-transparent_y1wwpe");
 
   return (
     <div className="App">
-      <NavbarResponsive />
+      <NavbarResponsive salamLogo={salamLogo} quoteImg1={quoteImg1} />
       <Welcome />
       <Testamonials />
       <div className="image-container">

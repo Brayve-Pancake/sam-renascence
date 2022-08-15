@@ -6,12 +6,18 @@
   padding: 0;
 }
 
-.navbar > div.container {
-  height: 100%;
-}
+// .navbar > div.container {
+//   // height: 100%;
+// }
 
 .navbar-brand > div {
   display: flex;
+}
+
+.brand-text > img {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  width: auto;
 }
 
 .navbar-link {
