@@ -1,7 +1,7 @@
 @import "./custom.scss";
 
 .navbar {
-  background-color: $r-d1;
+  background-color: $r-bg1;
   height: fit-content;
   padding: 0;
 }
@@ -14,9 +14,8 @@
   display: flex;
 }
 
-.brand-text-container {
-  display: flex;
-  justify-content: center;
+.navbar-link {
+  text-decoration: none;
 }
 
 // .navbar-toggler-icon {

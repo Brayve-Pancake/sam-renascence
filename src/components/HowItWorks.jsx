@@ -4,8 +4,22 @@ import bros from "../assets/res-bros.png";
 import "../scss/howItWorks.scss";
 
 import { AdvancedImage } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen";
 
-export default function HowItWorks(props) {
+export default function HowItWorks() {
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: "sam-renascence",
+    },
+  });
+
+  const brosBeingBros = cld.image("images/bros-being-bros-1_jaefql");
+  const quoteImg1 = cld.image("images/quote-img-1-1_v2uqst");
+  const quoteImg2 = cld.image("images/quote-img-2-1_eutrx4");
+  const waitingYellow = cld.image("images/waiting-yellow_xnswzh");
+  const salamCircle = cld.image("images/salamander-circle-yellow_ifhgxt");
+  const salamLogo = cld.image("images/salamander-transparent_y1wwpe");
+
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
@@ -31,15 +45,13 @@ export default function HowItWorks(props) {
       <hr></hr>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <AdvancedImage className="d-block w-100" cldImg={props.myImage} />
-
-          {/* <img className="d-block w-100" src={bros} alt="First slide" /> */}
+          <AdvancedImage className="d-block w-100" cldImg={brosBeingBros} />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={bros} alt="First slide" />
+          <AdvancedImage className="d-block w-100" cldImg={quoteImg1} />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={bros} alt="First slide" />
+          <AdvancedImage className="d-block w-100" cldImg={quoteImg2} />
         </Carousel.Item>
       </Carousel>
     </div>

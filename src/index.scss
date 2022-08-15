@@ -6,13 +6,18 @@
   box-sizing: border-box;
   // background-color: $r-bg1;
   color: $r-t2;
-  font-family: "Nunito", sans-serif;
+  // font-family: "Nunito", sans-serif;
   // font-family: "Quicksand", sans-serif;
   // font-family: "Readex Pro", sans-serif;
   // font-family: "Roboto", sans-serif;
   // font-family: "Open Sans", sans-serif;
+  // font-family: futura-pt-bold, sans-serif;
+
+  // reading font
+  font-family: futura-pt, sans-serif;
+  letter-spacing: 0.02em;
+
   font-weight: 300;
-  // letter-spacing: -0.02em;
 }
 
 body {
@@ -20,20 +25,20 @@ body {
 }
 
 .brand-text {
+  //title font
   font-family: "carlmarx", sans-serif;
-  // font-family: carlmarx, sans-serif;
+  letter-spacing: 0em;
 
-  // font-family: "Quicksand", sans-serif;
-  // font-family: "Nunito", sans-serif;
+  color: $r-t1;
   font-weight: 500;
-  font-size: 1.8rem;
-  // text-align: end;
-  padding: none;
-  margin: none;
+  font-size: 2rem;
+  text-shadow: rgb(0, 0, 0) 0px 0 4px;
 }
 
 .image-text {
-  font-family: gilbert-color, sans-serif;
+  // reading font
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
   color: $r-bg1;
   position: absolute;
   top: 3%;
@@ -45,6 +50,11 @@ body {
 
 .title {
   color: $r-t1;
+  letter-spacing: 0em;
+
+  // title font
+  font-family: "carlmarx", sans-serif;
+  font-size: 2rem;
   font-weight: 400;
   text-shadow: rgb(0, 0, 0) 0px 0 3px;
 }
