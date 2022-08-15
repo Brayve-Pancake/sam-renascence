@@ -5,7 +5,7 @@ import {
   HowItWorks,
   Pricing,
   Contact,
-  // Footer,
+  Footer,
 } from "./components/index";
 
 import { Cloudinary } from "@cloudinary/url-gen";
@@ -40,7 +40,7 @@ function App() {
       />
       <Pricing />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

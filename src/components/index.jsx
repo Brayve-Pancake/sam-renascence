@@ -4,6 +4,7 @@ import Testamonials from "./Testamonials";
 import HowItWorks from "./HowItWorks";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
   Welcome,
@@ -12,4 +13,5 @@ export {
   HowItWorks,
   Pricing,
   Contact,
+  Footer,
 };
