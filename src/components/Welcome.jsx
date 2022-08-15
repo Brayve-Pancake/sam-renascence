@@ -24,8 +24,7 @@ export default function Welcome() {
               allowFullScreen
             ></iframe>
           </div>
-          <br></br>
-          <div className="text-center my-2">
+          <div className="text-center">
             <Button bsPrefix="contact-btn" variant="dark" size="lg">
               Book Now
             </Button>

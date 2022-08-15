@@ -13,9 +13,14 @@
 
 .welcome {
   margin-inline: 5vw;
-  padding-top: calc($nav-height + 2rem);
+  padding-top: calc($nav-height + 1.5rem);
 
   //   position: relative;
+}
+
+// For button
+.text-center {
+  padding-block: 1rem;
 }
 
 .backgroundImage-overlay {
