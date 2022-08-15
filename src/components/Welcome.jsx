@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import BookBtn from "./BookBtn";
 import "../scss/welcome.scss";
 
 export default function Welcome() {
@@ -24,11 +24,7 @@ export default function Welcome() {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="text-center">
-            <Button bsPrefix="contact-btn" variant="dark" size="lg">
-              Book Now
-            </Button>
-          </div>
+          <BookBtn />
         </div>
       </div>
     </div>
