@@ -2,11 +2,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/r-logo.png";
+import "../scss/navbar.scss";
 
 export default function NavbarResponsive() {
   return (
     <Navbar
-      className="navbar-responsive"
+      // bsPrefix="override-navbar"
       collapseOnSelect
       expand="lg"
       fixed="top"
@@ -16,7 +17,9 @@ export default function NavbarResponsive() {
         <Navbar.Brand href="#whatWeDo">
           <div className="nav-container">
             <img className="logo" src={logo} alt="company logo" />
-            <h2 className="brand-text">RENASCENCE</h2>
+            <div className="brand-text-container">
+              <p className="brand-text">RENASCENCE</p>
+            </div>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
