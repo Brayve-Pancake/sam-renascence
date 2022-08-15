@@ -77,7 +77,7 @@ export default function Contact() {
         </div>
         <div className="contact-grid">
           <label htmlFor="Messaage">Your message</label>
-          <input
+          <textarea
             required
             type="text"
             id="Message"
@@ -86,7 +86,7 @@ export default function Contact() {
             onChange={handleChange}
           />
         </div>
-        <button type="submit">Submit</button>
+        <button>Submit</button>
       </form>
     </div>
   );
