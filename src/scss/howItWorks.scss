@@ -13,3 +13,16 @@
 .carousel-indicators > button {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";
+  color: $r-d1; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.3rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
+}

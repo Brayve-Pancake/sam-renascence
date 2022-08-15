@@ -21,9 +21,8 @@ export default function HowItWorks({ brosBeingBros, quoteImg1, quoteImg2 }) {
         <li className="sub-text">Lorem ipsum dolor sit amet.</li>
         <li className="sub-text">Lorem ipsum dolor sit amet.</li>
       </ul>
-      <div className="text-center my-2">
+      <div className="text-center">
         <Button bsPrefix="contact-btn" variant="dark" size="lg">
-          {/* <Button variant="custom-color" size="lg"> */}
           Book Now
         </Button>
       </div>
