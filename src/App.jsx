@@ -29,7 +29,7 @@ function App() {
       <Welcome />
       <Testamonials />
       <div className="image-container">
-        <p>
+        <p className="image-text">
           Are you waiting for your life to be fixed before you fix your life?
         </p>
       </div>

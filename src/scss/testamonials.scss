@@ -1,19 +1,10 @@
 @import "./custom.scss";
 
 .testamonials {
-  margin-inline: 5vw;
+  margin-inline: $bp1;
 }
 
-// Applies across all Carousels
-span.carousel-control-next-icon {
-  background-color: transparent;
-}
-
-span.carousel-control-prev-icon {
-  background-color: transparent;
-}
-
-// Applies to testamonials Caraousels only
+// Move Arrows Out More
 .testamonials-carousel > a > span.carousel-control-next-icon {
   position: absolute;
   right: -2.5vw;
@@ -25,36 +16,26 @@ span.carousel-control-prev-icon {
   background-color: transparent;
 }
 
-// Adding
+// For Card Default
 .add-flex {
   height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
-
 blockquote {
   padding-block: 2rem;
   padding-inline: 2rem;
 }
 
+// For Text Area
 blockquote > p {
-  font-size: 1rem;
+  font-size: $size1;
 }
-.blockquote-footer {
+.blockquote-footer > .name {
+  font-size: $size1;
   color: $r-d2;
 }
-
-.name {
-  color: $r-d2;
-}
-
 .blockquote-footer::before {
-  //   text-decoration: none;
   color: $r-d2;
-}
-
-.carousel-inner {
-  //   border: solid gold 2px;
 }

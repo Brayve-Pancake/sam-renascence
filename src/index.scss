@@ -20,11 +20,25 @@ body {
 }
 
 .brand-text {
-  font-family: "Quicksand", sans-serif;
-  font-family: "Nunito", sans-serif;
+  font-family: "carlmarx", sans-serif;
+  // font-family: carlmarx, sans-serif;
+
+  // font-family: "Quicksand", sans-serif;
+  // font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
   text-align: center;
+}
+
+.image-text {
+  font-family: gilbert-color, sans-serif;
+  color: $r-bg1;
+  position: absolute;
+  top: 3%;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  width: 80%;
 }
 
 .title {
@@ -61,18 +75,8 @@ body {
   position: relative;
 }
 
-.image-container > p {
-  position: absolute;
-  top: 3%;
-  text-align: center;
-  color: black;
-  font-weight: 600;
-  // text-shadow: rgb(0, 0, 0) 0px 0 3px;
-
-  font-size: 1.3rem;
-  line-height: 2rem;
-  width: 80%;
-}
+// .image-container > p {
+// }
 
 hr {
   // background-color: $r-d1;
