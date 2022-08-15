@@ -24,13 +24,14 @@
   justify-content: center;
 }
 blockquote {
-  padding-block: 2rem;
+  // padding-block: 5rem;
   padding-inline: 2rem;
 }
 
 // For Text Area
 blockquote > p {
   font-size: $size1;
+  // line-height: 1.4rem;
 }
 .blockquote-footer > .name {
   font-size: $size1;
