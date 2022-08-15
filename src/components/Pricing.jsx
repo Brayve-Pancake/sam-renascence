@@ -1,6 +1,6 @@
-import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import "../scss/pricing.scss";
+import BookBtn from "./BookBtn";
 
 export default function Pricing() {
   return (
@@ -27,11 +27,7 @@ export default function Pricing() {
             culpa qui officia deserunt mollit anim id est laborum.
             <br></br>
             <br></br>
-            <div className="text-center my-2">
-              <Button bsPrefix="contact-btn" variant="dark" size="lg">
-                Book Now
-              </Button>
-            </div>
+            <BookBtn />
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -50,11 +46,7 @@ export default function Pricing() {
             Resource creation
             <br></br>
             <br></br>
-            <div className="text-center my-2">
-              <Button bsPrefix="contact-btn" variant="dark" size="lg">
-                Book Now
-              </Button>
-            </div>
+            <BookBtn />
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
@@ -64,11 +56,7 @@ export default function Pricing() {
             coach?
             <br></br>
             <br></br>
-            <div className="text-center my-2">
-              <Button bsPrefix="contact-btn" variant="dark" size="lg">
-                Book Now
-              </Button>
-            </div>
+            <BookBtn />
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
