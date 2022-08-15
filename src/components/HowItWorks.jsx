@@ -1,25 +1,10 @@
 import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
-import bros from "../assets/res-bros.png";
 import "../scss/howItWorks.scss";
 
 import { AdvancedImage } from "@cloudinary/react";
-import { Cloudinary } from "@cloudinary/url-gen";
 
-export default function HowItWorks() {
-  const cld = new Cloudinary({
-    cloud: {
-      cloudName: "sam-renascence",
-    },
-  });
-
-  const brosBeingBros = cld.image("images/bros-being-bros-1_jaefql");
-  const quoteImg1 = cld.image("images/quote-img-1-1_v2uqst");
-  const quoteImg2 = cld.image("images/quote-img-2-1_eutrx4");
-  const waitingYellow = cld.image("images/waiting-yellow_xnswzh");
-  const salamCircle = cld.image("images/salamander-circle-yellow_ifhgxt");
-  const salamLogo = cld.image("images/salamander-transparent_y1wwpe");
-
+export default function HowItWorks({ brosBeingBros, quoteImg1, quoteImg2 }) {
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>

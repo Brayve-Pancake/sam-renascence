@@ -29,7 +29,7 @@ export default function Pricing() {
             <br></br>
             <div className="text-center my-2">
               <Button bsPrefix="contact-btn" variant="dark" size="lg">
-                Book now
+                Book Now
               </Button>
             </div>
           </Accordion.Body>
@@ -73,7 +73,6 @@ export default function Pricing() {
         </Accordion.Item>
       </Accordion>
       <br></br>
-      {/* <hr></hr> */}
     </div>
   );
 }
