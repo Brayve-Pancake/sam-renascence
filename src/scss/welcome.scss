@@ -8,11 +8,6 @@
   background-repeat: no-repeat;
 }
 
-.welcome {
-  margin-inline: $bp1;
-  padding-top: calc($nav-height + 1.5rem);
-}
-
 // For button
 .welcome > .text-center {
   padding-block: 1rem;
@@ -20,6 +15,14 @@
 
 .backgroundImage-overlay {
   background-color: #333333cc;
+}
+
+.welcome {
+  margin-inline: $bp1;
+  padding-top: calc($nav-height + 1.5rem);
+  @include media-breakpoint-up(xl) {
+    margin-inline: $bp2;
+  }
 }
 
 // On expansion
@@ -30,6 +33,9 @@
     justify-content: center;
     align-items: center;
     gap: $bp1;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 80vw;
   }
 }
 .welcome-textbox {
