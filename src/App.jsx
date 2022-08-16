@@ -18,9 +18,9 @@ function App() {
   const md = useMediaQuery({
     query: "(min-device-width: 768px)",
   });
-  const lg = useMediaQuery({
-    query: "(min-device-width: 992px)",
-  });
+  // const lg = useMediaQuery({
+  //   query: "(min-device-width: 992px)",
+  // });
   const xl = useMediaQuery({
     query: "(min-device-width: 1200px)",
   });
@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <NavbarResponsive salamLogo={salamLogo} quoteImg1={quoteImg1} />
-      <Welcome />
+      <Welcome md={md} xl={xl} />
       <Testamonials />
       <div className="image-container">
         <p className="image-text">
