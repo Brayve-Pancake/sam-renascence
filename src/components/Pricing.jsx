@@ -2,7 +2,7 @@ import Accordion from "react-bootstrap/Accordion";
 import "../scss/pricing.scss";
 import BookBtn from "./BookBtn";
 
-export default function Pricing() {
+export default function Pricing({ md }) {
   return (
     <div id="pricing" className="pricing jumptarget">
       <h1 className="title">Community Driven Pricing</h1>
@@ -12,7 +12,11 @@ export default function Pricing() {
         continue on a bi-weekly basis.
       </p>
       <Accordion flush bsPrefix="accordion" defaultActiveKey="0">
-        <Accordion.Item bsPrefix="accordion-item" eventKey="0">
+        <Accordion.Item
+          className="accordion-item-override1"
+          // bsPrefix="accordion-item"
+          eventKey="0"
+        >
           <Accordion.Header bsPrefix="accordion-header">
             16 Week Package £899.
           </Accordion.Header>
@@ -26,7 +30,7 @@ export default function Pricing() {
             culpa qui officia deserunt mollit anim id est laborum.
             <br></br>
             <br></br>
-            <BookBtn />
+            {!md && <BookBtn />}{" "}
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -45,17 +49,17 @@ export default function Pricing() {
             Resource creation
             <br></br>
             <br></br>
-            <BookBtn />
+            {!md && <BookBtn />}{" "}
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2">
+        <Accordion.Item className="accordion-item-override3" eventKey="2">
           <Accordion.Header>Free Consultation</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className="accordion-body-override3">
             New to coaching? Not sure what to expect? Want to meet your new
             coach?
             <br></br>
             <br></br>
-            <BookBtn />
+            {!md && <BookBtn />}{" "}
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

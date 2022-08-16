@@ -66,8 +66,10 @@ function App() {
       />
       <hr className="external-hr"></hr>
       <div className="pricingContact-flex">
+        <div className="pricingContact-overlay"></div>
+        <div className="pricingContact-grey"></div>
         <div className="pricing-flex">
-          <Pricing />
+          <Pricing md={md} />
         </div>
         <div className="contact-flex">
           <Contact />
