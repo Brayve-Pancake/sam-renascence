@@ -34,6 +34,7 @@ function App() {
   const brosBeingBros = cld.image("images/bros-being-bros-1_jaefql");
   const quoteImg1 = cld.image("images/quote-img-1-1_v2uqst");
   const quoteImg2 = cld.image("images/quote-img-2-1_eutrx4");
+  const yellowWait = cld.image("images/waitingYellow-text-1_lylozd");
   const salamLogo = cld.image("images/salamander-transparent_y1wwpe");
 
   return (
@@ -41,15 +42,18 @@ function App() {
       <NavbarResponsive salamLogo={salamLogo} quoteImg1={quoteImg1} />
       <Welcome md={md} xl={xl} />
       <Testamonials />
-      <div className="image-container">
-        <p className="image-text">
-          Are you waiting for your life to be fixed before you fix your life?
-        </p>
-      </div>
+      {!xl && (
+        <div className="image-container">
+          <p className="image-text">
+            Are you waiting for your life to be fixed before you fix your life?
+          </p>
+        </div>
+      )}
       <HowItWorks
         brosBeingBros={brosBeingBros}
         quoteImg1={quoteImg1}
         quoteImg2={quoteImg2}
+        yellowWait={yellowWait}
       />
       <Pricing />
       <Contact />
