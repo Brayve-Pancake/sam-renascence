@@ -3,6 +3,8 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 
 export default function Contact() {
+  const [status, setStatus] = useState("success");
+
   const [toSend, setToSend] = useState({
     full_name: "",
     preferred_name: "",
@@ -19,9 +21,11 @@ export default function Contact() {
       import.meta.env.VITE_PUBLIC_API
     )
       .then((response) => {
+        setStatus("success");
         console.log("SUCCESS!", response.status, response.text);
       })
       .catch((err) => {
+        setStatus("failed");
         console.log("FAILED...", err);
       });
   };
@@ -86,6 +90,21 @@ export default function Contact() {
             onChange={handleChange}
           />
         </div>
+        {status === "success" && (
+          <div className="contact-success">
+            Success, check your email for confirmation.
+            {/* <p> Check your email for confirmation</p> */}
+          </div>
+        )}
+        {status === "failed" && (
+          <div className="contact-failed">
+            Oops, something went wrong!
+            <br></br>
+            Please contact us directly:
+            <br></br>
+            samfoston101@gmail.com
+          </div>
+        )}
         <button>Submit</button>
       </form>
     </div>

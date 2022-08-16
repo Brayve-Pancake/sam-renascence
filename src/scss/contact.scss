@@ -40,3 +40,17 @@
   border: 0.8px solid gray;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 2px;
 }
+
+.contact-success,
+.contact-failed {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: #689462;
+  color: $r-bg1;
+  font-size: $size0;
+  line-height: 1.5rem;
+}
+
+.contact-failed {
+  background-color: $r-d2;
+}
