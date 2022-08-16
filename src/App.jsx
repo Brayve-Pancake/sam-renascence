@@ -1,5 +1,14 @@
 // import "./index.scss";
 
+// ADD buuton next and prev for carousels
+// Remove/test out dragable carousel = it's weird with mouse, check wiht mobile too
+// Sam intro video
+// Sam content
+// maybe use the dark back ground style (looks cool)
+// Add socials link
+// Setup Email.js for Sam
+// Tidy code and CSS
+
 import {
   NavbarResponsive,
   Welcome,
