@@ -2,6 +2,9 @@
 
 .testamonials {
   margin-inline: $bp1;
+  @include media-breakpoint-up(xl) {
+    margin-inline: $bp2;
+  }
 }
 
 // Move Arrows Out More
