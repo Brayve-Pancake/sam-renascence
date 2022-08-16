@@ -1,5 +1,12 @@
 @import "./custom.scss";
 
+.carouselDynamic {
+  margin-inline: $bp1;
+  @include media-breakpoint-up(xl) {
+    margin-inline: $bp2;
+  }
+}
+
 .custom-dot-list-style {
   list-style: none;
 }

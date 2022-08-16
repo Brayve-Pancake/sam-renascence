@@ -1,5 +1,44 @@
 @import "./custom.scss";
 
+@include media-breakpoint-up(xl) {
+  .backgroundImage2 {
+    position: relative;
+  }
+  .backgroundImage-overlay2 {
+    width: 100vw;
+  }
+  .underlay-div {
+    z-index: -100;
+    position: absolute;
+    // background-color: black;
+    background-color: black;
+    margin-inline: -10vw;
+    width: 100vw !important;
+    height: 35vw;
+  }
+  .backgroundImage-overlay2 > img {
+    // z-index: -5;
+    // background-color: black;
+    margin-inline: -10vw;
+    position: absolute;
+    top: 0;
+    // right: 0;
+    height: 35vw;
+    object-fit: cover;
+    width: 50vw;
+    z-index: -100;
+  }
+  .overlay-div {
+    z-index: -99;
+    position: absolute;
+    // background-color: black;
+    background-color: #333333cc;
+    margin-inline: -10vw;
+    width: 100vw !important;
+    height: 35vw;
+  }
+}
+
 .howItWorks {
   margin-inline: $bp1;
   @include media-breakpoint-up(xl) {
@@ -38,6 +77,7 @@
   }
   .howItWorks-f2 > img {
     width: 35vw;
+    height: 35vw;
   }
   .howItWorks-f1 {
     display: flex;

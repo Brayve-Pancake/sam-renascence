@@ -6,6 +6,7 @@ import {
   Pricing,
   Contact,
   Footer,
+  CarouselDynamic,
 } from "./components/index";
 
 import { Cloudinary } from "@cloudinary/url-gen";
@@ -54,6 +55,12 @@ function App() {
         quoteImg1={quoteImg1}
         quoteImg2={quoteImg2}
         yellowWait={yellowWait}
+      />
+      <CarouselDynamic
+        brosBeingBros={brosBeingBros}
+        quoteImg1={quoteImg1}
+        quoteImg2={quoteImg2}
+        md={md}
       />
       <Pricing />
       <Contact />

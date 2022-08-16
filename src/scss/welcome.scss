@@ -3,9 +3,16 @@
 .backgroundImage {
   background-image: url("https://res.cloudinary.com/sam-renascence/image/upload/v1/images/salamander-circle-yellow_ifhgxt?_a=AJE+xWI0");
   background-color: black;
-  background-size: 100%;
-  background-position: 50% 50%;
+  background-size: 50%;
+  background-position: center 5rem;
   background-repeat: no-repeat;
+  // @include media-breakpoint-up(xl) {
+  //   background-position: center 100px;
+  // }
+}
+
+.backgroundImage-overlay {
+  background-color: #333333cc;
 }
 
 // For button
@@ -14,10 +21,6 @@
 }
 .welcome-textbox > .text-center {
   padding-bottom: 2rem;
-}
-
-.backgroundImage-overlay {
-  background-color: #333333cc;
 }
 
 .welcome {
