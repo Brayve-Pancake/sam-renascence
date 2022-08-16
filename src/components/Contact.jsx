@@ -3,7 +3,7 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 
 export default function Contact() {
-  const [status, setStatus] = useState("success");
+  const [status, setStatus] = useState(undefined);
 
   const [toSend, setToSend] = useState({
     full_name: "",
@@ -47,7 +47,7 @@ export default function Contact() {
       </div>
       <form className="form" onSubmit={onSubmit}>
         <div className="contact-grid">
-          <label htmlFor="Full_name">Full name</label>
+          <label htmlFor="Full_name">Full Name</label>
           <input
             required
             type="text"
@@ -58,11 +58,11 @@ export default function Contact() {
           />
         </div>
         <div className="contact-grid">
-          <label htmlFor="Preferred_name">Preferred name</label>
+          <label htmlFor="Preferred_name">Preferred Name</label>
           <input
             required
             type="text"
-            id="Preffered_name"
+            id="Preferred_name"
             name="preferred_name"
             value={toSend.to_name}
             onChange={handleChange}
@@ -80,10 +80,11 @@ export default function Contact() {
           />
         </div>
         <div className="contact-grid">
-          <label htmlFor="Messaage">Your message</label>
+          <label htmlFor="Messaage">Your Message</label>
           <textarea
             required
             type="text"
+            placeholder="Are you interested in a free consultation?"
             id="Message"
             name="message"
             value={toSend.message}
