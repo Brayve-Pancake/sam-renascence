@@ -42,6 +42,7 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   color: $r-bg1;
+  // color: green;
   position: absolute;
   top: 3%;
   text-align: center;
@@ -99,3 +100,18 @@ hr {
   height: 0px;
   opacity: 100%;
 }
+.external-hr {
+  margin-inline: $bp1;
+  @include media-breakpoint-up(xl) {
+    margin-inline: $bp2;
+  }
+}
+.pricingContact-flex {
+  display: flex;
+}
+
+.pricing-flex,
+.contact-flex {
+  width: 50%;
+}
+// .contact-flex

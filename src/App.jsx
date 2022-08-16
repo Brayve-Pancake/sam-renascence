@@ -1,3 +1,5 @@
+// import "./index.scss";
+
 import {
   NavbarResponsive,
   Welcome,
@@ -62,8 +64,15 @@ function App() {
         quoteImg2={quoteImg2}
         md={md}
       />
-      <Pricing />
-      <Contact />
+      <hr className="external-hr"></hr>
+      <div className="pricingContact-flex">
+        <div className="pricing-flex">
+          <Pricing />
+        </div>
+        <div className="contact-flex">
+          <Contact />
+        </div>
+      </div>
       <Footer />
     </div>
   );

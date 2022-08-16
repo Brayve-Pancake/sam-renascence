@@ -5,7 +5,6 @@ import BookBtn from "./BookBtn";
 export default function Pricing() {
   return (
     <div id="pricing" className="pricing jumptarget">
-      <hr></hr>
       <h1 className="title">Community Driven Pricing</h1>
       <p>
         To kickstart your transformation, Renascence offer a complete coaching
