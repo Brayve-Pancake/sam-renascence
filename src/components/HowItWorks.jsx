@@ -3,8 +3,6 @@ import "../scss/howItWorks.scss";
 import BookBtn from "./BookBtn";
 import CarouselDynamic from "./CarouselDynamic";
 
-import { AdvancedImage } from "@cloudinary/react";
-
 import { useMediaQuery } from "react-responsive";
 
 export default function HowItWorks({ brosBeingBros, quoteImg1, quoteImg2 }) {
@@ -15,7 +13,6 @@ export default function HowItWorks({ brosBeingBros, quoteImg1, quoteImg2 }) {
     query: "(min-device-width: 1200px)",
   });
 
-  function numCarouselImg() {}
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       <hr></hr>
@@ -34,20 +31,6 @@ export default function HowItWorks({ brosBeingBros, quoteImg1, quoteImg2 }) {
       </ul>
       <BookBtn />
       <hr></hr>
-      {/* <Carousel indicators={false} interval={null}>
-        <Carousel.Item direction="horizontal">
-          <div className="carousel-img-container">
-            <AdvancedImage className="d-block" cldImg={brosBeingBros} />
-            <AdvancedImage className="d-block" cldImg={quoteImg1} />
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <AdvancedImage className="d-block" cldImg={quoteImg1} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <AdvancedImage className="d-block" cldImg={quoteImg2} />
-        </Carousel.Item>
-      </Carousel> */}
       <CarouselDynamic
         brosBeingBros={brosBeingBros}
         quoteImg1={quoteImg1}

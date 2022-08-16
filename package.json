@@ -12,6 +12,7 @@
     "@cloudinary/react": "^1.4.2",
     "@cloudinary/url-gen": "^1.8.0",
     "@emailjs/browser": "^3.6.2",
+    "@mui/icons-material": "^5.8.4",
     "bootstrap": "^5.2.0",
     "dotenv": "^16.0.1",
     "emailjs-com": "^3.2.0",

@@ -4,4 +4,26 @@
   list-style: none;
 }
 
-// class="react-multi-carousel-item react-multi-carousel-item--active "
+.carousel-unsplash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 400px;
+}
+.carousel-unsplash > img {
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    width: 90%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 90%;
+  }
+}
+
+// Ensure cards dont overlap
+.react-multi-carousel-item,
+.react-multi-carousel-item--active {
+  display: flex;
+  justify-content: center;
+}

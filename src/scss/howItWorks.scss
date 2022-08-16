@@ -14,10 +14,10 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
+// REMOVE BULLETS
 .howItWorks-ul {
-  list-style: none; /* Remove default bullets */
+  list-style: none;
 }
-
 .howItWorks-ul li::before {
   content: "\2022";
   color: $r-d1; /* Change the color */
@@ -25,17 +25,4 @@
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.3rem; /* Also needed for space (tweak if needed) */
   margin-left: -1rem; /* Also needed for space (tweak if needed) */
-}
-
-.carousel-img-container {
-  display: flex;
-  width: calc(100vw - 3 * $bp1);
-  gap: $bp1;
-}
-
-.carousel-img-container > img {
-  width: 100%;
-  @include media-breakpoint-up(md) {
-    width: 50%;
-  }
 }
