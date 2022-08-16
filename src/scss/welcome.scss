@@ -12,6 +12,9 @@
 .welcome > .text-center {
   padding-block: 1rem;
 }
+.welcome-textbox > .text-center {
+  padding-bottom: 2rem;
+}
 
 .backgroundImage-overlay {
   background-color: #333333cc;
@@ -40,11 +43,15 @@
 }
 .welcome-textbox {
   @include media-breakpoint-up(md) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 45vw;
   }
 }
 .welcome-iframe-second {
   @include media-breakpoint-up(md) {
     width: 45vw;
+    padding-bottom: 2rem;
   }
 }

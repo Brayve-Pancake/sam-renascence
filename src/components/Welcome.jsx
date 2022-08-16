@@ -22,7 +22,7 @@ export default function Welcome({ md, xl }) {
                 quia minus est expedita, nobis ullam! Illo ex voluptatem
                 doloribus sed ad!
               </p>
-              {/* {md && <BookBtn />} */}
+              {md && <BookBtn />}
             </div>
             <br></br>
             <div className="welcome-iframe-second">
@@ -36,7 +36,7 @@ export default function Welcome({ md, xl }) {
               </div>
             </div>
           </div>
-          <BookBtn />
+          {!md && <BookBtn />}
         </div>
       </div>
     </div>
