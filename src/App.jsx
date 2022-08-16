@@ -10,17 +10,30 @@ import {
 
 import { Cloudinary } from "@cloudinary/url-gen";
 
+import { useMediaQuery } from "react-responsive";
+
 function App() {
+  // MediaQuery for breakpoints (Same as BootStrap defaults)
+
+  const md = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
+  const lg = useMediaQuery({
+    query: "(min-device-width: 992px)",
+  });
+  const xl = useMediaQuery({
+    query: "(min-device-width: 1200px)",
+  });
+
+  // Cloudinary
   const cld = new Cloudinary({
     cloud: {
       cloudName: "sam-renascence",
     },
   });
-
   const brosBeingBros = cld.image("images/bros-being-bros-1_jaefql");
   const quoteImg1 = cld.image("images/quote-img-1-1_v2uqst");
   const quoteImg2 = cld.image("images/quote-img-2-1_eutrx4");
-  const waitingYellow = cld.image("images/waiting-yellow_xnswzh");
   const salamLogo = cld.image("images/salamander-transparent_y1wwpe");
 
   return (
