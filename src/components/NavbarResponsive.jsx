@@ -30,7 +30,7 @@ export default function NavbarResponsive({ salamLogo }) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#whatWeDo">What we do</Nav.Link>
             <Nav.Link href="#howItWorks">How it works</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>

@@ -3,15 +3,7 @@
 .navbar {
   background-color: $r-bg1;
   height: fit-content;
-  padding: 0;
-}
-
-// .navbar > div.container {
-//   // height: 100%;
-// }
-
-.navbar-brand > div {
-  display: flex;
+  width: 100vw !important;
 }
 
 .brand-text > img {
@@ -24,10 +16,9 @@
   text-decoration: none;
 }
 
-// .navbar-toggler-icon {
-//   //   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#{$r-yellow-icon}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-//   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-
-//   //   width: 0.5em;
-//   //   height: 0.5em;
-// }
+.navbar > .container {
+  max-width: 96vw;
+  @include media-breakpoint-up(xl) {
+    max-width: 85vw;
+  }
+}
