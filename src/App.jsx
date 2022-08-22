@@ -7,6 +7,9 @@
 // Setup Email.js for Sam
 // Tidy code and CSS
 
+// info@renascence.com???
+// Captcha to stop spam email
+
 import {
   NavbarResponsive,
   Welcome,
@@ -54,7 +57,7 @@ function App() {
           </p>
         </div>
       )}
-      <HowItWorks yellowWait={yellowWait} />
+      <HowItWorks yellowWait={yellowWait} xl={xl} />
       <CarouselDynamic
         brosBeingBros={brosBeingBros}
         quoteImg1={quoteImg1}

@@ -2,16 +2,7 @@ import "../scss/howItWorks.scss";
 import BookBtn from "./BookBtn";
 import { AdvancedImage } from "@cloudinary/react";
 
-import { useMediaQuery } from "react-responsive";
-
-export default function HowItWorks({ yellowWait }) {
-  const md = useMediaQuery({
-    query: "(min-device-width: 768px)",
-  });
-  const xl = useMediaQuery({
-    query: "(min-device-width: 1200px)",
-  });
-
+export default function HowItWorks({ yellowWait, xl }) {
   return (
     <div id="howItWorks" className="howItWorks jumptarget">
       {!xl && <hr></hr>}
