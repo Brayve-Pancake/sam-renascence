@@ -87,7 +87,6 @@ export default function Contact() {
         {status === "success" && (
           <div className="contact-success">
             Success, check your email for confirmation.
-            {/* <p> Check your email for confirmation</p> */}
           </div>
         )}
         {status === "failed" && (
@@ -96,7 +95,7 @@ export default function Contact() {
             <br></br>
             Please contact us directly:
             <br></br>
-            samfoston101@gmail.com
+            sam@@renascence-coaching.com
           </div>
         )}
         <button>Submit</button>
