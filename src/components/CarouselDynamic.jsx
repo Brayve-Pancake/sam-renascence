@@ -8,17 +8,18 @@ export default function CarouselDynamic({
   brosBeingBros,
   quoteImg1,
   quoteImg2,
+  md,
 }) {
   return (
     <div className="carouselDynamic">
       <Carousel
         additionalTransfrom={0}
-        arrows={false}
+        arrows={md}
         autoPlaySpeed={3000}
         centerMode={false}
         className=""
         dotListClass
-        draggable
+        draggable={false}
         focusOnSelect={false}
         infinite
         itemClass=""

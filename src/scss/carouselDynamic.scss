@@ -28,6 +28,20 @@
   }
 }
 
+// Change arrows
+.react-multiple-carousel__arrow {
+  background-color: rgba(0, 0, 0, 0);
+}
+.react-multiple-carousel__arrow--right {
+  right: 0;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0;
+}
+.react-multiple-carousel__arrow:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 // Ensure cards dont overlap
 .react-multi-carousel-item,
 .react-multi-carousel-item--active {

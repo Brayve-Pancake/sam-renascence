@@ -59,6 +59,7 @@ function App() {
       )}
       <HowItWorks yellowWait={yellowWait} xl={xl} />
       <CarouselDynamic
+        md={md}
         brosBeingBros={brosBeingBros}
         quoteImg1={quoteImg1}
         quoteImg2={quoteImg2}
