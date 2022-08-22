@@ -19,8 +19,8 @@ export default function Welcome({ md, xl }) {
               </p>
               {md && <BookBtn />}
             </div>
-            <br></br>
-            <div className="welcome-iframe-second">
+            {/* <br></br> */}
+            {/* <div className="welcome-iframe-second">
               <div className="iframe-container ratio-16x9 ratio">
                 <iframe
                   className="m"
@@ -29,7 +29,7 @@ export default function Welcome({ md, xl }) {
                   allowFullScreen
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </div>
           {!md && <BookBtn />}
         </div>
