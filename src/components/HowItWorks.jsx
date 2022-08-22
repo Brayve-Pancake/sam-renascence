@@ -1,17 +1,10 @@
-import Carousel from "react-bootstrap/Carousel";
 import "../scss/howItWorks.scss";
 import BookBtn from "./BookBtn";
-import CarouselDynamic from "./CarouselDynamic";
 import { AdvancedImage } from "@cloudinary/react";
 
 import { useMediaQuery } from "react-responsive";
 
-export default function HowItWorks({
-  brosBeingBros,
-  quoteImg1,
-  quoteImg2,
-  yellowWait,
-}) {
+export default function HowItWorks({ yellowWait }) {
   const md = useMediaQuery({
     query: "(min-device-width: 768px)",
   });

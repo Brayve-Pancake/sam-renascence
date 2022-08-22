@@ -1,5 +1,3 @@
-// import "./index.scss";
-
 // ADD buuton next and prev for carousels
 // Remove/test out dragable carousel = it's weird with mouse, check wiht mobile too
 // Sam intro video
@@ -21,18 +19,13 @@ import {
 } from "./components/index";
 
 import { Cloudinary } from "@cloudinary/url-gen";
-
 import { useMediaQuery } from "react-responsive";
 
 function App() {
   // MediaQuery for breakpoints (Same as BootStrap defaults)
-
   const md = useMediaQuery({
     query: "(min-device-width: 768px)",
   });
-  // const lg = useMediaQuery({
-  //   query: "(min-device-width: 992px)",
-  // });
   const xl = useMediaQuery({
     query: "(min-device-width: 1200px)",
   });
@@ -61,17 +54,11 @@ function App() {
           </p>
         </div>
       )}
-      <HowItWorks
-        brosBeingBros={brosBeingBros}
-        quoteImg1={quoteImg1}
-        quoteImg2={quoteImg2}
-        yellowWait={yellowWait}
-      />
+      <HowItWorks yellowWait={yellowWait} />
       <CarouselDynamic
         brosBeingBros={brosBeingBros}
         quoteImg1={quoteImg1}
         quoteImg2={quoteImg2}
-        md={md}
       />
       <hr className="external-hr"></hr>
       <div className="pricingContact-flex">
