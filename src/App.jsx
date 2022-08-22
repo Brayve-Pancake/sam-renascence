@@ -27,10 +27,10 @@ import { useMediaQuery } from "react-responsive";
 function App() {
   // MediaQuery for breakpoints (Same as BootStrap defaults)
   const md = useMediaQuery({
-    query: "(min-device-width: 768px)",
+    query: "(min-width: 768px)",
   });
   const xl = useMediaQuery({
-    query: "(min-device-width: 1200px)",
+    query: "(min-width: 1200px)",
   });
 
   // Cloudinary
