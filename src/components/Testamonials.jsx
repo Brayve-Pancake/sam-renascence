@@ -73,7 +73,7 @@ export default function Testamonials() {
                 hands; we got on instantly.”
               </p>
               <p className="blockquote-footer">
-                <span className="name">Joshua Bray</span>
+                <span className="name">Brother Joshua</span>
               </p>{" "}
             </blockquote>
           </Card>
@@ -89,7 +89,7 @@ export default function Testamonials() {
                 reminders and appreciates you and your choices.”
               </p>
               <p className="blockquote-footer">
-                <span className="name">Joshua Bray</span>
+                <span className="name">Anonymous Bro</span>
               </p>{" "}
             </blockquote>
           </Card>
@@ -105,7 +105,7 @@ export default function Testamonials() {
                 me figure out my path through life's challenges.”
               </p>
               <p className="blockquote-footer">
-                <span className="name">Joshua Bray</span>
+                <span className="name">Bro Joe</span>
               </p>{" "}
             </blockquote>
           </Card>
