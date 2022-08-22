@@ -37,13 +37,6 @@ export default function Contact() {
     <div id="contact" className="contact jumptarget">
       <div className="contact-text">
         <h3 className="title">Contact Renascence</h3>
-        <p>
-          Taking the time to reflect is the first step. By contacting Sam at
-          Renascence you're putting yourself on the fast track for positive
-          changes in your life.
-          <br></br>
-          Get in contact now, we will get right back!
-        </p>
       </div>
       <form className="form" onSubmit={onSubmit}>
         <div className="contact-grid">
@@ -108,6 +101,12 @@ export default function Contact() {
         )}
         <button>Submit</button>
       </form>
+      <br></br>
+      <p>
+        Renascence is community-focused; we help bros like you to rebuild after
+        a crisis or major change. Whatever is holding you back, know that we can
+        change things with a forward-focused, action-oriented approach.
+      </p>
     </div>
   );
 }

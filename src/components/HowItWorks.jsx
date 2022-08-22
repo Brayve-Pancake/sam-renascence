@@ -17,19 +17,39 @@ export default function HowItWorks({ yellowWait, xl }) {
 
         <div className="howItWorks-flex">
           <div className="howItWorks-f1">
-            <h1 className="title">Coaching Package</h1>
+            <h1 className="title">How It Works</h1>
             <p className="sub-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-              sed distinctio, obcaecati non natus eligendi hic sint sapiente
-              quia minus est expedita, nobis ullam! Illo ex voluptatem doloribus
-              sed ad!
+              A standard coaching package with Renascence lasts for 16 weeks.
+              This is enough time to make the fundamental changes you need to
+              start feeling like your own man.
+              <br></br>
+              <br></br>The overall theme of the coaching will be bespoke to your
+              life. With the help of many excellent tools and methods, we will
+              get to the core of what you want to achieve and get started on
+              reaching those goals.
             </p>
             <ul className="howItWorks-ul">
-              <li className="sub-text">Lorem ipsum dolor sit amet.</li>
-              <li className="sub-text">Lorem ipsum dolor sit amet.</li>
-              <li className="sub-text">Lorem ipsum dolor sit amet.</li>
-              <li className="sub-text">Lorem ipsum dolor sit amet.</li>
-              <li className="sub-text">Lorem ipsum dolor sit amet.</li>
+              <li className="sub-text">
+                <b>16 sessions</b> lasting 60 to 90 minutes each
+              </li>
+              <li className="sub-text">
+                <b>Quality self-analysis</b>, so we both get to know the real
+                you
+              </li>
+              <li className="sub-text">
+                <b>Life analysis</b> to see where the gaps are and identify what
+                you want to work on first
+              </li>
+              <li className="sub-text">
+                <b>A short-term plan</b> spanning our time together
+              </li>
+              <li className="sub-text">
+                <b>A medium-term plan</b> for you to develop on your own terms
+              </li>
+              <li className="sub-text">
+                <b>A long-term plan</b> that fulfils your natural human longing
+                for satisfaction, significance, and security.
+              </li>
             </ul>
             {xl && <br></br>}
             <BookBtn />

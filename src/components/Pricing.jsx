@@ -5,47 +5,39 @@ import BookBtn from "./BookBtn";
 export default function Pricing({ md }) {
   return (
     <div id="pricing" className="pricing jumptarget">
-      <h1 className="title">Community Driven Pricing</h1>
-      <p>
-        To kickstart your transformation, Renascence offer a complete coaching
-        service that spans a total of 16 weeks. The bro's we help frequently
-        continue on a bi-weekly basis.
-      </p>
-      <Accordion flush bsPrefix="accordion" defaultActiveKey="0">
+      <h1 className="title">Pricing</h1>
+      <Accordion flush bsPrefix="accordion" defaultActiveKey="2">
         <Accordion.Item
           className="accordion-item-override1"
           // bsPrefix="accordion-item"
           eventKey="0"
         >
           <Accordion.Header bsPrefix="accordion-header">
-            16 Week Package £899.
+            16-Week Package £960.
           </Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            <b>16 sessions</b> lasting 60 to 90 minutes each. <br></br>
+            <b>Quality self-analysis</b>, so we both get to know the real you.
+            <br></br>
+            <b>Life analysis</b> to see where the gaps are and identify what you
+            want to work on first.<br></br>
+            <b>A short-term plan</b> spanning our time together.<br></br>
+            <b>A medium-term plan</b> for you to develop on your own terms.
+            <br></br>
+            <b>A long-term plan</b> that fulfils your natural human longing for
+            satisfaction, significance, and security.
             <br></br>
             <br></br>
             {!md && <BookBtn />}{" "}
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Hourly Rate £60</Accordion.Header>
+          <Accordion.Header>Ad Hoc Bro Sessions £40</Accordion.Header>
           <Accordion.Body>
-            Hourly sessions are best for those who have already formed a
-            foundational relationship with Renasence.
-            <br></br>
-            The hourly rate includes:
-            <br></br>
-            1hr live coaching session
-            <br></br>A behind the scenes summarisation
-            <br></br>
-            Personalised session organisation
-            <br></br>
-            Resource creation
+            Once you have finished our initial coaching package, we'll know each
+            other better, making coaching simpler. As such, you'll be eligible
+            for ad hoc coaching at a lower rate of £40 per session. <br></br>
+            <br></br>Sessions span the usual 60 to 90 minutes.
             <br></br>
             <br></br>
             {!md && <BookBtn />}{" "}
@@ -54,8 +46,14 @@ export default function Pricing({ md }) {
         <Accordion.Item className="accordion-item-override3" eventKey="2">
           <Accordion.Header>Free Consultation</Accordion.Header>
           <Accordion.Body className="accordion-body-override3">
-            New to coaching? Not sure what to expect? Want to meet your new
-            coach?
+            Ready for a chat about it?
+            <br></br>
+            <br></br>
+            Drop us a message using the form below, and our lead coach, Sam,
+            will be in touch to arrange a 1-hour free consultation.
+            <br></br>
+            <br></br>
+            In this session, we will discuss how Renascence can support you.
             <br></br>
             <br></br>
             {!md && <BookBtn />}{" "}

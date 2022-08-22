@@ -1,13 +1,6 @@
 import BookBtn from "./BookBtn";
 import "../scss/welcome.scss";
 
-// pass in the mediaquery prop is Desktop and tablet
-// Tablet keep 5vw
-// Desktop use 10vw
-// flex the `welcome` box
-// gap betwren flex 5vw
-// contidtionally render in the new button and out the old
-
 export default function Welcome({ md, xl }) {
   return (
     <div className="backgroundImage">
@@ -17,10 +10,12 @@ export default function Welcome({ md, xl }) {
             <div className="welcome-textbox">
               <h1 className="title">What We Do</h1>
               <p className="sub-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-                sed distinctio, obcaecati non natus eligendi hic sint sapiente
-                quia minus est expedita, nobis ullam! Illo ex voluptatem
-                doloribus sed ad!
+                Renascence was born out of a passion for helping bros facing
+                challenging circumstances. Our private coaching helps those who
+                feel lost, trapped or incomplete. Testament to our mission to
+                help as many as possible, we set aside a third of our income.
+                These funds support community-focused projects and allow us to
+                coach bros facing financial difficulty.
               </p>
               {md && <BookBtn />}
             </div>

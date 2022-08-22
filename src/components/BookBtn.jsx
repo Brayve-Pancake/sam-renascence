@@ -5,7 +5,7 @@ export default function BookBtn() {
   return (
     <div className="text-center">
       <Button href="#contact" bsPrefix="contact-btn" variant="dark" size="lg">
-        Book Now
+        Contact Us
       </Button>
     </div>
   );
